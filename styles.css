@@ -11,14 +11,17 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #06283D;
+  background: url(images/eva.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .container{
   position: relative;
   width: 400px;
   height: 105px;
-  background: #fff;
+  background: white;
   padding: 28px 32px;
   overflow: hidden;
   border-radius: 18px;
@@ -149,7 +152,7 @@ body{
 .not-found{
   width: 100%;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 15px;
   scale: 0;
   opacity: 0;
   display: none;
@@ -161,9 +164,9 @@ body{
 
 .not-found p{
   color: #06283D;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 500;
-  margin-top: 12px;
+  margin-top: 8px;
 }
 
 .weather-box, .weather-details{
