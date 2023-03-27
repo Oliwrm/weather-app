@@ -1,0 +1,2 @@
+api key: 86c204470d8aa258d3b3916530a31aac
+icons: https://kit.fontawesome.com/7c8801c017.js
